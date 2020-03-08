@@ -16,19 +16,15 @@ virtualenv mylstm
 
 source mylstm/bin/activate
 
-pip3 install jupyter
-
-pip3 install keras
-
-python -m pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
-
-pip3 install tensorflow
-
-pip install -U scikit-learn
-
-pip install statsmodels
+python -m pip install numpy scipy matplotlib ipython jupyter pandas sympy nose keras tensorflow scikit-learn
 
 jupyter notebook
 ```
 
 From Jupyter Notebooks in your browser, navigate to your local/clone of this repo and run mylstm.ipynb.
+
+When finished, quit Jupyter Notebooks, then from the terminal, deactivate your virtualenv:
+
+```
+deactivate
+```
