@@ -7,6 +7,8 @@ flags(df, report=False)
 
 compare_flags(df_train, df_test, df_pred)
 
+
+af1(true_positive, true_negative, false_positive, false_negative)
 """
 
 import numpy as np
@@ -108,3 +110,23 @@ def compare_flags(df_train, df_test, df_forecast):
     result = [HR_error, SBP_error, algo_accuracy] + actual_flags[1:] + pred_flags[1:]
 
     return result
+
+
+def af1(true_positive, true_negative, false_positive, false_negative):
+    """
+    Calculates accuracy and F1-score for a particular feature.
+
+    true_positive : number of true positives.
+    true_negative : number of true negatives.
+    false_positive: number of false positives.
+    false_negative: number of false negatives.
+
+    output:    acc: accuracy of the model on the feature.
+          f1_score: F1-score of the model on the feature.
+    """
+    acc = (true_positive + true_negative) / (true_positive + false_positive + false_negative + true_negative)
+    prec = true_positive / (true_positive + false_positive)
+    rec = true_positive / (true_positive + false_negative)
+    f1_score = 2 * (rec * prec) / (rec + prec)
+
+    return acc, f1_score
