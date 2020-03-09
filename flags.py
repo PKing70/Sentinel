@@ -8,7 +8,7 @@ flags(df, report=False)
 compare_flags(df_train, df_test, df_pred)
 
 
-af1(true_positive, true_negative, false_positive, false_negative)
+accuracy_f1(true_positive, true_negative, false_positive, false_negative)
 """
 
 import numpy as np
@@ -79,7 +79,7 @@ def flags(df, report=False):
 
 def compare_flags(df_train, df_test, df_forecast):
     """
-    Compares the results of the flag-raising algorithm.
+    CompaBres the results of the flag-raising algorithm.
 
     df_train   : training set of the timeseries for a particular patient.
     df_test    : test set of the timeseries for a particular patient.
@@ -112,7 +112,7 @@ def compare_flags(df_train, df_test, df_forecast):
     return result
 
 
-def af1(true_positive, true_negative, false_positive, false_negative):
+def accuracy_f1(true_positive, true_negative, false_positive, false_negative):
     """
     Calculates accuracy and F1-score for a particular feature.
 
