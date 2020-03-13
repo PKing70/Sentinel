@@ -1,0 +1,9 @@
+patient_uuid,HR_error,SBP_error,algo_accuracy,pred_rising_HR,actual_rising_HR,pred_lowering_HR,actual_lowering_HR,pred_rising_SBP,actual_rising_SBP,pred_high_BP,actual_high_BP,pred_min_HR,actual_min_HR,pred_max_HR,actual_max_HR,pred_min_SBP,actual_min_SBP,pred_max_SBP,actual_max_SBP
+1127912,0.9964084552701727,0.404226865524463,0.5,True,False,False,False,False,False,False,False,10,16,7,0,7,0,0,0
+1164638,0.9964084552701727,0.404226865524463,0.5,True,False,False,False,False,False,False,False,10,16,7,0,7,0,0,0
+1166047,0.9964084552701727,0.404226865524463,0.5,True,False,False,False,False,False,False,False,10,16,7,0,7,0,0,0
+1193821,0.9964084552701727,0.404226865524463,0.5,True,False,False,False,False,False,False,False,10,16,7,0,7,0,0,0
+1231804,0.9964084552701727,0.404226865524463,0.5,True,False,False,False,False,False,False,False,10,16,7,0,7,0,0,0
+1519674,0.9964084552701727,0.404226865524463,0.5,True,False,False,False,False,False,False,False,10,16,7,0,7,0,0,0
+1523219,0.9964084552701727,0.404226865524463,0.5,True,False,False,False,False,False,False,False,10,16,7,0,7,0,0,0
+2075791,0.9964084552701727,0.404226865524463,0.5,True,False,False,False,False,False,False,False,10,16,7,0,7,0,0,0
