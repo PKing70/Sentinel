@@ -3,18 +3,18 @@ Sentinel Healthcare LSTM Notebook
 
 This LSTM model is built on top of the Keras deep learning library, using a Tensorflow backend, in a working SciPy environment. 
 
-Jupyter Notebooks does simply function by importing these libraries inline. Instead, instantiate a virtual environment with the dependencies installed, then run Jupyter Notebooks from there and import as usual.
+Jupyter Notebooks does simply function by importing these libraries inline. Instead, instantiate a virtual environment with the dependencies installed, then run Jupyter Notebooks from there and import as usual. For steps, follow below.
 
 Prerequisite:
 
 [VirtualEnv](https://pypi.org/project/virtualenv/)
 
-Then, to configure your system for this Notebook, from your terminal enter:
+To configure your system for this Notebook, from your terminal enter:
 
 ```
-virtualenv mylstm
+virtualenv lstm
 
-source mylstm/bin/activate
+source lstm/bin/activate
 
 python -m pip install numpy scipy matplotlib ipython jupyter pandas sympy nose keras tensorflow scikit-learn
 
