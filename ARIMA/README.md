@@ -21,28 +21,28 @@ Datasets:
 
 From Jupyter Notebooks in your browser, navigate to your local/clone of this repo and run each of the notebooks mentioned below.
 
-##for explorations: 
+## for explorations: 
 | notebook name  | input  | output |
 | :------------ |:------------| :------------|
 | vitals_etl_explore_different_cosinor_models     | vitals2.csv | None |
 | vitals_etl_explore_cosinor_interpolation_with_charts      | vitals2.csv        |   None |
 | sarima_exploratory_work_with_charts | vitals_combined_interpolated.csv        |    None |
 
-##for data preprocessing (day level aggregations and cosinor interpolation): 
+## for data preprocessing (day level aggregations and cosinor interpolation): 
 | notebook name  | input  | output |
 | :------------ |:------------| :------------|
 | vitals_etl_cosinor_interpolation_newdata_SBP_multicore     | combined_vitals.csv | vitals_sbp_interpolated.csv |
 | vitals_etl_cosinor_interpolation_newdata_HR_multicore      | combined_vitals.csv        |   vitals_hr_interpolated.csv |
 | vitals_combine_the_two_interpolated_datasets | vitals_sbp_interpolated.csv & vitals_hr_interpolated.csv        |    vitals_combined_interpolated.csv |
 
-##for modelling and predictions:
+## for modelling and predictions:
 | notebook name  | input  | output |
 | :------------ |:------------| :------------|
 | sarima_prediction_and_forecast_sbp     | vitals_combined_interpolated.csv | df_vitals_combined_SBP_predicted.csv & df_vitals_combined_SBP_forecast.csv |
 | sarima_prediction_and_forecast_hr | vitals_combined_interpolated.csv        |    df_vitals_combined_hr_predicted.csv & df_vitals_combined_hr_forecast.csv |
 
 
-##for generating the metrics:
+## for generating the metrics:
 | notebook name  | input  | output |
 | :------------ |:------------| :------------|
 | generate_sarima_metrics     | vitals_combined_interpolated.csv, df_vitals_combined_SBP_predicted.csv & df_vitals_combined_hr_predicted.csv | sarima_models_stats.csv |
