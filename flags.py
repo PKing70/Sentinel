@@ -64,7 +64,7 @@ def flags(df, report=False):
 
     high_SBP = (df.SBP > 140) & (df.SBP < 179)
 
-    if np.sum(high_SBP[-15:]) > 7:
+    if np.sum(high_SBP[-7:]) > 3:
         high_BP = True
         flag_message_7 = 'High blood pressure detected.'
     if report == True:
