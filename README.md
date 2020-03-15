@@ -121,6 +121,8 @@ Sentinel (master)
 |     |     README.md
 |
 |----- VAR
+|     |     flag_stats.csv
+|     |     model_stats.csv
 |     |     README.md
 |     |     VAR.ipynb
 |
