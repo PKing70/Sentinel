@@ -96,7 +96,7 @@ Sentinel (master)
 |     README.md
 |
 |----- docs 
-|     |      SentinelReport.pdf
+|     |      Sentinel Paper.pdf
 |     |      SentinelPoster.pdf
 |
 |----- ARIMA
@@ -115,14 +115,15 @@ Sentinel (master)
 |     |     README.md
 |
 |----- LSTM
-|     |     df_model.csv
-|     |     lstm_flag_stats.csv
+|     |     df_flags_lstm.csv
+|     |     df_lstm_metrics.csv
+|     |     df_model_lstm.csv
 |     |     LSTM.ipynb
 |     |     README.md
 |
 |----- VAR
 |     |     flag_stats.csv
-|     |     model_stats.csv
+|     |     models_stats.csv
 |     |     README.md
 |     |     VAR.ipynb
 |
