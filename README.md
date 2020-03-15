@@ -98,9 +98,6 @@ Sentinel (master)
 |----- docs 
 |     |      SentinelReport.pdf
 |     |      SentinelPoster.pdf
-|     |
-|     |----- images
-|     |     |     whatever.png
 |
 |----- ARIMA
 |     |     vitals_etl_explore_different_cosinor_models.ipynb
