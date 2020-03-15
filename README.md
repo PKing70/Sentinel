@@ -103,7 +103,18 @@ Sentinel (master)
 |     |     |     whatever.png
 |
 |----- ARIMA
-|     |     ARIMA.ipynb
+|     |     vitals_etl_explore_different_cosinor_models.ipynb
+|     |     vitals_etl_explore_cosinor_interpolation_with_charts.ipynb
+|     |     vitals_etl_cosinor_interpolation_newdata_HR_multicore.ipynb
+|     |     vitals_etl_cosinor_interpolation_newdata_SBP_multicore.ipynb
+|     |     vitals_combine_the_two_interpolated_datasets.ipynb
+|     |     sarima_exploratory_work_with_charts.ipynb
+|     |     sarima_prediction_and_forecast_hr.ipynb
+|     |     sarima_prediction_and_forecast_sbp.ipynb
+|     |     generate_sarima_flags.ipynb
+|     |     generate_sarima_metrics.ipynb
+|     |     sarima_flags_stats.csv
+|     |     sarima_models_stats.csv
 |     |     README.md
 |
 |----- LSTM
