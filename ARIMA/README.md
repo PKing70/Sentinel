@@ -1,7 +1,7 @@
 # SARIMA
 Sentinel Healthcare SARIMA Notebook
 
-This SARIMA model is built using the SARIMAX model in the statmodel.statespace package. 
+This SARIMA model is built using the SARIMAX model in the statsmodels.statespace package. 
 
 Datasets: 
 | dataset name  | purpose  |
