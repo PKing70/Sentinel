@@ -6,7 +6,7 @@ This LSTM model
 
 The LSTM model is access via the `LSTM.ipynb` Jupyter Notebook. The model is built using the Keras deep learning library on a Tensorflow backend, in a working SciPy environment.
 
-Jupyter does not simply function by importing these libraries inline (Known issue)[]. Instead, you must instantiate a virtual environment with the dependencies installed, then run Jupyter Notebooks from the virtual environment. 
+Jupyter does not simply function by importing these libraries inline [Known issue](https://stackoverflow.com/questions/45939307/unable-to-import-keras-in-jupyter). Instead, you must instantiate a virtual environment with the dependencies installed, then run Jupyter Notebooks from the virtual environment. 
 
 ### Prerequisite
 
@@ -41,3 +41,7 @@ deactivate
 ## Source data
 
 This model assumes you have a copy of `vitals_combined_interpolated.csv` in your working directory. If you don't have this data, you likely don't have permission from Sentinel to access this customer medical data.
+
+## Acknowledgment
+
+The modeling approach in this notebook was informed by the tutorials from Jason Brownlee, available at [Machine Learning Mastery](https://machinelearningmastery.com/).
