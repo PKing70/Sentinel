@@ -96,8 +96,9 @@ Sentinel (master)
 |     README.md
 |
 |----- docs 
+|     |      Sentinel Abstract.pdf
 |     |      Sentinel Paper.pdf
-|     |      SentinelPoster.pdf
+|     |      Sentinel Poster.pdf
 |
 |----- ARIMA
 |     |     vitals_etl_explore_different_cosinor_models.ipynb
