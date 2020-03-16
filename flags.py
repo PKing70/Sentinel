@@ -1,5 +1,5 @@
 """
-Functions for evaluationg
+Functions for evaluation
 
 flags(df, report=False)
 # df must be a 30-day time-series of the latest current data.
