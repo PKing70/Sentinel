@@ -135,6 +135,12 @@ Sentinel (master)
 |     |     README.md
 |     |     script.js
 |     |     style.css
+|
+|----- Photos
+|     |     Agustin_Lew.jpg
+|     |     Ankit_Tandon.jpg
+|     |     Patrick_King.png
+|     |     Suman_Bhagavathula.PNG
 
 ```
 
